@@ -1,0 +1,2256 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    color: black;
+}
+
+/* body {
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
+} */
+
+/*----------------- Navigation-bar ---------------------*/
+nav {
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+    top: 0px;
+    overflow: hidden;
+    position: fixed;
+    background-color: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid #192e2f;
+}
+
+.logo {
+    float: left;
+    margin-left: 20px;
+    width:auto;
+    height:auto;
+}
+
+.logo-txt {
+    float: right;
+    font-size: 40px;
+    color: #208844;
+    letter-spacing: 0.05em;
+    margin: 25px 0px 0px 0px;
+    /* border: 2px solid black; */
+}
+
+.logo-img {
+    float: left;
+    width: 100px;
+
+    /* border: 2px solid black; */
+}
+
+.menu {
+    float: right;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-right: 20px;
+}
+
+.menu ul li {
+    font-size: 16px;
+    display: inline-block;
+    padding: 40px 20px 40px;
+}
+
+.menu ul li a {
+    color: #192e2f;
+    font-weight: bold;
+    border-bottom: 2px solid #192e2f;
+}
+
+.menu-border {
+    border-right: 2px solid #f5f5f5;
+}
+
+.menu .active li {
+    background-color: #f5f5f5;
+}
+
+.menu .active a {
+    border-bottom: 2px solid #208844;
+    color: #208844;
+}
+
+.menu li:hover {
+    background-color: #f5f5f5;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #208844;
+    color: #208844;
+}
+
+
+
+
+/*----------------- Contact Oss---------------------*/
+
+.space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    background-color:#8FB399;
+}
+
+.About{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 200px;
+    height: 40%;
+    background-color: #8FB399;
+}
+
+.About h1{
+
+    padding-top: 10px;
+    font-size: 40px;
+    line-height: 44px;
+}
+
+
+.About p{
+    padding: 40px;
+    margin-left: 14px;
+    font-size: 20px;
+    color: #2E343B;
+
+}
+
+
+
+.story{
+
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:#8FB399;
+    margin-bottom: 50px;
+
+}
+
+.story p{
+
+    font-family: "PT Sans";
+    font-size: 12px;
+    color: #002627;
+    line-height: 24px;
+
+}
+
+.Information{
+
+    width: 90%;
+}
+
+
+
+.text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:20px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+.tittel{
+    padding: 40px 20px 20px 20px;
+    font-family: Arial;
+    font-size: 22px;
+    color: #111;
+    line-height: 44px;
+}
+
+.border{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 50px;
+
+}
+
+.linje{
+    text-decoration: none;
+    width: 200px;
+    background-color: darkorange;
+    border: 3px solid #808080;
+    border-radius: 12px;
+}
+
+
+
+
+
+/*------------------------TEAM------------------------*/
+
+
+.flex{
+
+    display:flex;
+    flex-wrap:wrap;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+.person1{
+
+    width:100%;
+    height:100%;
+    margin-top: 70px;
+    border-radius: 10px;
+    background-color: #25A6F4;
+
+}
+
+.image{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+   width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+}
+
+.name h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size:20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.line{
+    text-decoration: none;
+    float: bottom;
+    width: 125px;
+    background-color: #25A6F4;
+    border: 1px solid #25A6F4;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.title1 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.Social a{
+
+    margin: 20px;
+}
+
+.Social a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+
+.tekst{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color:#25A6F4;
+}
+
+/*----------------------- Person2 -----------------------*/
+
+.person2{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: purple;
+
+}
+
+.image2{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile2{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name2{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name2 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+
+}
+
+.line2{
+    text-decoration: none;
+    width: 125px;
+    background-color: purple;
+    border: 1px solid purple;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.title2 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social2 a{
+
+    margin: 20px;
+}
+
+.Social2 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+
+.tekst2{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst2 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum2{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: purple;
+}
+
+
+
+/*----------------------- Person3 -----------------------*/
+
+.person3{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: #CA091C;
+
+}
+
+.image3{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile3{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name3{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name3 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+
+}
+
+.line3{
+    text-decoration: none;
+    width: 125px;
+    background-color: #CA091C;
+    border: 1px solid #CA091C;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.title3 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social3 a{
+
+    margin: 20px;
+}
+
+.Social3 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+.tekst3{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst3 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum3{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: #CA091C;
+}
+
+
+/*----------------------- Person4 -----------------------*/
+
+.person4{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: orange;
+
+}
+
+.image4{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile4{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name4{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name4 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    opacity:0.95;
+    background-color: whitesmoke;
+
+
+}
+
+.line4{
+    text-decoration: none;
+    width: 125px;
+    background-color: orange;
+    border: 1px solid orange;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.title4 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social4 a{
+
+    margin: 20px;
+}
+
+.Social4 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+
+.tekst4{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst4 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum4{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+
+/*----------------------- Person5 -----------------------*/
+
+.person5{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: green;
+
+}
+
+.image5{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile5{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name5{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name5 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje5{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+
+}
+
+.line5{
+    text-decoration: none;
+    width: 125px;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student5{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.title5 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social5{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social5 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+.Icons{
+    width: 90%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.Icons a{
+
+    margin: 20px;
+}
+
+
+.tekst5{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst5 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum5{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: green;
+}
+
+
+/*----------------------- Person6 -----------------------*/
+
+.person6{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: gray;
+
+}
+
+.image6{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile6{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name6{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name6 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje6{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+
+}
+
+.line6{
+    text-decoration: none;
+    width: 125px;
+    background-color: gray;
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student6{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.title6 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social6{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social6 a{
+
+    margin: 20px;
+}
+
+.Social6 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+
+.tekst6{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst6 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum6{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+
+/*----------------------- Person7 -----------------------*/
+
+.person7{
+
+    margin-top: 125px;
+    width:100%;
+    height:100%;
+    border-radius: 10px;
+    background-color: #2D2A39;
+
+}
+
+.image7{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    float:top;
+    width:100%;
+    height:33%;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.profile7{
+
+    position: relative;
+    margin:10px;
+    width:130px;
+    height:125px;
+
+}
+
+
+.name7{
+
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:40px;
+    float:top;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+}
+
+.name7 h1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 20px;
+    width:100%;
+    font-family: "PT Sans";
+    margin:10px;
+
+}
+
+.box_linje7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:10px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+
+}
+
+.line7{
+    text-decoration: none;
+    width: 125px;
+    background-color: #2D2A39;
+    border: 1px solid #2D2A39;
+    border-radius: 8px;
+    height: 2px;
+}
+
+.box_student7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:20px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.title7 {
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+
+
+.Social7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    background-color: whitesmoke;
+    opacity:0.95;
+
+
+}
+
+.Social7 a{
+
+    margin: 20px;
+}
+
+.Social7 a:hover{
+    transition: 0.45s;
+    opacity: 0.5;
+
+}
+
+.tekst7{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    width:100%;
+    height:40%;
+    background-color: #F9F9F9;
+}
+
+.tekst7 p {
+
+    font-family: arial;
+    color: black;
+    margin: 20px 20px 20px 20px;
+    line-height: 25px;
+    font-size: 13px;
+    opacity: 0.7;
+
+}
+
+.sum7{
+    width:100%;
+    height:10px;
+    border-radius: 10px;
+    background-color: #2D2A39;
+}
+
+
+/*----------------------- Footer -----------------------*/
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+    margin: 0;
+    top: 200px;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background-color: #5e7d66;
+    color: white;
+}
+
+.container {
+    margin: 0px auto;
+    width: 90%;
+    height: 180px;
+    text-align: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.s-media {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 25%;
+    height: 100%;
+}
+
+.left-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+
+.left-top h1 {
+    position: relative;
+    color: white;
+    margin: 30px;
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+}
+
+.left-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-center a {
+    position: relative;
+    padding: 0px 8px 0px 8px;
+    font-size: 22px;
+    color: #f2f2f2;
+}
+
+.support-and-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    float: left;
+    width: 75%;
+    height: 100%;
+}
+
+.support {
+    position: relative;
+    width: 37.5%;
+}
+
+.support h4 {
+    margin: 40px 0px 0px 0px;
+    height: 15%;
+}
+
+.support a {
+    height: 10%;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.support a:hover {
+    opacity: 0.5;
+}
+
+.contact-us {
+    position: relative;
+    width: 37.5%;
+}
+
+.contact-us h4 {
+    margin: 40px 0px 0px 0px;
+    height: 15%;
+}
+
+.contact-us a {
+    margin: 70px 0px 0px 0px;
+    height: 10%;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.contact-us a:hover {
+    opacity: 0.5;
+}
+
+.copyright {
+    background-color: #293b2e;
+    width: 100%;
+}
+
+.copyright p {
+    padding: 5px 5px;
+    color: #bfbfbf;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer-links a {
+    display: block;
+    margin: 10px 0px 0px 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.footer-links ul li a {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.copyright {
+    padding-top: 0px;
+    text-align: center;
+}
+
+.s-media a {
+    padding: 0px 10px 0px 0px;
+    font-size: 18px;
+    color: black;
+}
+
+
+
+
+/*------   Responsiv part   -------*/
+
+
+@media (min-width: 550px) {
+
+
+    .tittel{
+        padding: 40px 20px 20px 20px;
+        font-family: Arial;
+        font-size: 26px;
+        color: #111;
+        line-height: 44px;
+    }
+
+
+    .flex{
+
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        width:100%;
+        height:100%;
+        background-color:white;
+    }
+
+
+    .person1{
+
+        margin-top: 125px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #25A6F4;
+
+    }
+
+    .person2{
+
+        margin-top: 125px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: purple;
+
+    }
+
+    .person3{
+
+        margin-top: 125px;
+        margin-left: 12px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #CA091C;
+
+    }
+
+    .person4{
+
+        margin: 125px 0px 0px 22px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: orange;
+
+    }
+
+    .person5{
+
+        margin-top: 125px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: green;
+
+    }
+
+
+
+
+
+    .person6{
+
+        margin-top: 125px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: gray;
+
+    }
+
+    .person7{
+
+        margin-top: 125px;
+        margin-left:10px;
+        width:45%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #2D2A39;
+
+    }
+
+
+
+}
+
+
+
+@media (min-width:1000px){
+
+
+    .tittel{
+        padding: 40px 20px 20px 20px;
+        font-family: Arial;
+        font-size: 30px;
+        color: #111;
+        line-height: 44px;
+    }
+
+
+    .story p{
+
+        font-family: "PT Sans";
+        font-size: 14px;
+        color: #002627;
+        line-height: 32px;
+
+    }
+
+    .Information{
+
+        width: 60%;
+    }
+
+
+
+    .flex{
+
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: space-around;
+        width:100%;
+        height:100%;
+        background-color:white;
+    }
+
+
+    .person1{
+
+        margin-top: 125px;
+        margin-left:5px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #25A6F4;
+
+    }
+
+    .person2{
+
+        margin-top: 125px;
+        margin-left: 15px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: purple;
+
+    }
+
+    .person3{
+
+        margin-top: 125px;
+        margin-right:5px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #CA091C;
+
+    }
+
+    .person4{
+
+        margin: 125px 0px 0px 9px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: orange;
+
+    }
+
+    .person5{
+
+        margin-top: 125px;
+        margin-right:18px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: green;
+
+    }
+
+    .person6{
+
+        margin-top: 125px;
+        margin-right:6px;
+
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: gray;
+
+    }
+
+    .person7{
+
+        margin-top: 125px;
+        margin-left:3px;
+        width:30%;
+        height:100%;
+        border-radius: 10px;
+        background-color: #2D2A39;
+
+    }
+
+}
+
+
+
+@media (min-width:1200px) {
+
+    .tittel{
+        padding: 40px 20px 20px 20px;
+        font-family: Arial;
+        font-size: 32px;
+        color: #111;
+        line-height: 44px;
+    }
+
+
+    .flex {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+
+
+    .person1 {
+
+        margin-top: 125px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: #25A6F4;
+
+    }
+
+    .person2 {
+
+        margin-top: 125px;
+        margin-left: 5px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: purple;
+
+    }
+
+    .person3 {
+
+        margin-top: 125px;
+        margin-right: 5px;
+
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: #CA091C;
+
+    }
+
+    .person4 {
+
+        margin: 125px 0px 0px 14px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: orange;
+
+    }
+
+    .person5 {
+
+        margin-top: 125px;
+        margin-right: 28px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: green;
+
+    }
+
+    .person6 {
+
+        margin-top: 125px;
+        margin-right: 12px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: gray;
+
+    }
+
+    .person7 {
+
+        margin-top: 125px;
+        margin-right: 8.5px;
+        width: 30%;
+        height: 100%;
+        border-radius: 10px;
+        background-color: #2D2A39;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    nav {
+        height: 100px;
+    }
+
+    .logo {
+        margin-left: 20px;
+    }
+
+    .main-txt h1 {
+        width: 45%;
+        top: 60%;
+        font-size: 28px;
+        line-height: 50px;
+        text-align: start;
+        padding: 0px 15px;
+    }
+
+    .iphone-app-img {
+        width: 40%;
+        top: 25%;
+        left: 65%;
+        transform: translate(-10%, 0%);
+    }
+
+    .iphone-app-img img {
+        width: 65%;
+    }
+
+    .wrapper {
+        height: auto;
+    }
+
+    .challenge {
+        width: 50%;
+        padding: 20px;
+    }
+
+    .challenge h1 {
+        font-size: 30px;
+    }
+
+    .challenge p {
+        font-size: 18px;
+    }
+
+    .globe-img {
+        height: auto;
+    }
+
+    .globe-img img {
+        margin: 100px auto;
+    }
+
+    .mobile-app-img {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    .mobile-app-img img {
+        margin: 160px auto;
+        width: 60%;
+    }
+
+    .solution {
+        margin: 15px auto;
+        width: 60%;
+        padding: 20px;
+        height: auto;
+    }
+
+    .solution h1 {
+        font-size: 30px;
+    }
+
+    .solution p {
+        font-size: 18px;
+    }
+
+    .contact-us-img img {
+        margin: 140px auto;
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    nav {
+        height: 100px;
+        position: relative;
+        text-align: center;
+    }
+
+    .menu ul {
+        position: fixed;
+        background-color: white;
+        border-top: 1px solid #192e2f;
+        height: 70px;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        width: 100%;
+    }
+    .menu ul li {
+        float: left;
+        width: 25%;
+        text-align: center;
+        box-sizing: border-box;
+        line-height: 70px;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .main-bk {
+        height: 100vh;
+    }
+
+    .main-txt h1 {
+        width: 45%;
+        top: 60%;
+        font-size: 22px;
+        line-height: 40px;
+        text-align: start;
+        padding: 0px 15px;
+    }
+
+    .iphone-app-img {
+        width: 40%;
+        top: 30%;
+        left: 55%;
+        transform: translate(-10%, 0%);
+    }
+
+    .iphone-app-img img {
+        width: 80%;
+    }
+
+    .wrapper {
+        margin: 0px auto;
+        height: auto;
+    }
+
+    .challenge {
+        width: 100%;
+        height: auto;
+    }
+
+    .challenge h1 {
+        font-size: 28px;
+    }
+
+    .challenge p {
+        font-size: 16px;
+    }
+
+    .globe-img {
+        float: left;
+        width: 100%;
+        text-align: center;
+    }
+
+    .globe-img img {
+        margin: 20px auto;
+        width: 40%;
+    }
+
+    .solution {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .solution h1 {
+        font-size: 28px;
+    }
+
+    .solution p {
+        font-size: 16px;
+    }
+
+    .mobile-app-img {
+        float: left;
+        width: 50%;
+        margin: 0 auto;
+        height: auto;
+        text-align: center;
+    }
+
+    .mobile-app-img img {
+        margin: 20px auto;
+        width: 30%;
+    }
+
+    .talk-to-us-wrapper {
+        margin: 0px auto;
+        height: auto;
+    }
+
+    .talk-to-us {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .talk-to-us h1 {
+        font-size: 28px;
+    }
+
+    .contact-us-media {
+        float: right;
+        width: 45%;
+    }
+
+    .contact-us-img {
+        margin: 25px auto;
+    }
+
+    .contact-us-img img {
+        margin: 0px auto;
+        width: 90%;
+    }
+
+    .container {
+        width: 100%;
+        margin: 20px 20px;
+        height: auto;
+    }
+
+    .s-media {
+        float: none;
+        width: 100%;
+        height: auto;
+    }
+
+    .support-and-contact-info {
+        float: left;
+        width: 100%;
+        height: auto;
+    }
+
+    .support {
+        height: fit-content;
+    }
+
+    .support h4 {
+        padding-bottom: 10px;
+    }
+
+    .contact-us {
+        height: fit-content;
+    }
+
+    .contact-us h4 {
+        padding-bottom: 10px;
+    }
+
+    footer {
+        /* bottom height has to correspond to .menu ul height */
+        bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    .menu ul {
+        height: 60px;
+    }
+
+    .menu ul li {
+        line-height: 60px;
+        font-size: 15px;
+    }
+
+    .main-txt h1 {
+        width: 45%;
+        top: 60%;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: start;
+        padding: 0px 15px;
+    }
+
+    .iphone-app-img {
+        width: 40%;
+        top: 30%;
+        left: 55%;
+        transform: translate(-10%, 0%);
+    }
+
+    .iphone-app-img img {
+        width: 100%;
+    }
+    footer {
+        /* bottom height has to correspond to .menu ul height */
+        bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .menu ul {
+        height: 50px;
+    }
+
+    .menu ul li {
+        line-height: 50px;
+        font-size: 13px;
+        letter-spacing: normal;
+    }
+
+    .main-bk {
+        height: 70vh;
+    }
+
+    .main-txt h1 {
+        width: 45%;
+        top: 40%;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: start;
+        padding: 0px 15px;
+    }
+
+    .iphone-app-img {
+        width: 40%;
+        top: 25%;
+        left: 55%;
+        transform: translate(-10%, 0%);
+    }
+
+    .iphone-app-img img {
+        width: 100%;
+    }
+
+    .challenge {
+        padding: 20px;
+    }
+
+    .challenge h1 {
+        font-size: 24px;
+    }
+
+    .challenge p {
+        font-size: 16px;
+    }
+
+    .solution {
+        padding: 20px;
+    }
+
+    .solution h1 {
+        font-size: 24px;
+    }
+
+    .solution p {
+        font-size: 16px;
+    }
+
+    .wrapper {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    #msg-box {
+        width: 50%;
+    }
+
+    .contact-us-img {
+        float: left;
+        width: 50%;
+    }
+
+    .talk-to-us-wrapper {
+        width: 100%;
+    }
+
+    .talk-to-us {
+        margin: 0px auto;
+        float: left;
+        width: 100%;
+    }
+
+    .talk-to-us h1 {
+        font-size: 24px;
+    }
+
+    .talk-to-us p {
+        font-size: 18px;
+    }
+
+    .contact-us-media {
+        margin: 20px auto;
+        float: left;
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+    }
+
+    .left-top h1 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .support {
+        position: relative;
+        width: 40%;
+    }
+
+    .support h4,
+    .contact-us h4 {
+        font-size: 16px;
+    }
+
+    footer {
+        /* bottom height has to correspond to .menu ul height */
+        bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .menu ul {
+        min-height: 50px;
+    }
+    .main-bk {
+        height: 65vh;
+        /* border: 1px solid black; */
+        position: relative;
+    }
+
+    .main-txt h1 {
+        width: 45%;
+        top: 60%;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: start;
+        padding: 0px 15px;
+    }
+
+    .iphone-app-img {
+        width: 40%;
+        top: 40%;
+        left: 55%;
+        transform: translate(-10%, 0%);
+    }
+    footer {
+        /* bottom height has to correspond to .menu ul height */
+        bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .container {
+        margin: 0px auto;
+        height: auto;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width: 319px) {
+    .menu ul {
+        min-width: 319px;
+    }
+}
+
+
+
+/*  image sources:
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
+
+
+Qoutes link:
+
+https://www.inc.com/jayson-demers/51-quotes-to-inspire-success-in-your-life-and-business.html
+
+https://parade.com/937586/parade/life-quotes/
+
+https://www.goodreads.com/quotes/tag/life?page=3
+
+ */
